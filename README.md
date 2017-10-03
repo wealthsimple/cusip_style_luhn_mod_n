@@ -12,16 +12,16 @@ gem 'cusip_style_luhn_mod_n'
 
 ## Usage
 
-```
+```ruby
 # Check validity of check digit:
 CUSIPStyleLuhnModN.valid?("A1B2C5")
-# => true
+=> true
 CUSIPStyleLuhnModN.valid?("A1B2C4")
-# => false
+=> false
 
 # Generate check digit
 CUSIPStyleLuhnModN.check_digit("A1B2C")
-# => 5
+=> 5
 ```
 
 ## Development
