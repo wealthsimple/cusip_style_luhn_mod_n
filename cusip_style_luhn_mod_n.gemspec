@@ -5,7 +5,7 @@ require "cusip_style_luhn_mod_n/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "cusip_style_luhn_mod_n"
-  spec.version       = CusipStyleLuhnModN::VERSION
+  spec.version       = CUSIPStyleLuhnModN::VERSION
   spec.authors       = ["Marc Duez", "Peter Graham"]
   spec.email         = ["marc@wealthsimple.com", "peter@wealthsimple.com"]
 

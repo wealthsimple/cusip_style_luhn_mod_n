@@ -1,6 +1,6 @@
 # cusip_style_luhn_mod_n [![CircleCI](https://circleci.com/gh/wealthsimple/cusip_style_luhn_mod_n.svg?style=svg)](https://circleci.com/gh/wealthsimple/cusip_style_luhn_mod_n)
 
-CUSIP-style luhn mod N algorithm based on https://commons.apache.org/proper/commons-validator/apidocs/org/apache/commons/validator/routines/checkdigit/CUSIPCheckDigit.html and https://en.wikipedia.org/wiki/Luhn_mod_N_algorithm 
+CUSIP-style luhn mod N algorithm based on https://commons.apache.org/proper/commons-validator/apidocs/org/apache/commons/validator/routines/checkdigit/CUSIPCheckDigit.html and https://en.wikipedia.org/wiki/Luhn_mod_N_algorithm
 
 ## Installation
 
@@ -12,7 +12,17 @@ gem 'cusip_style_luhn_mod_n'
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+# Check validity of check digit:
+CUSIPStyleLuhnModN.valid?("A1B2C5")
+# => true
+CUSIPStyleLuhnModN.valid?("A1B2C4")
+# => false
+
+# Generate check digit
+CUSIPStyleLuhnModN.check_digit("A1B2C")
+# => 5
+```
 
 ## Development
 
