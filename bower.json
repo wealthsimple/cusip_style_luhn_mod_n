@@ -1,0 +1,11 @@
+{
+  "name": "cusip_style_luhn_mod_n",
+  "version": "0.1.0",
+  "description": "CUSIP-style luhn mod N",
+  "main": "javascripts/cusip_style_luhn_mod_n.js",
+  "ignore": [
+    "lib/",
+    "node_modules/",
+    "spec/",
+  ]
+}
