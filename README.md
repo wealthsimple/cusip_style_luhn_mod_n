@@ -4,13 +4,23 @@ CUSIP-style luhn mod N algorithm based on https://commons.apache.org/proper/comm
 
 ## Installation
 
+#### Ruby:
+
 Add this line to your application's Gemfile and run `bundle`:
 
 ```ruby
 gem 'cusip_style_luhn_mod_n'
 ```
 
+#### JavaScript:
+
+```
+npm i cusip_style_luhn_mod_n --save 
+```
+
 ## Usage
+
+#### Ruby:
 
 ```ruby
 # Check validity of check digit:
@@ -22,6 +32,21 @@ CUSIPStyleLuhnModN.valid?("A1B2C4")
 
 # Generate check digit
 CUSIPStyleLuhnModN.check_digit("A1B2C")
+=> 5
+```
+
+#### JavaScript:
+
+```js
+// Check validity of check digit:
+CUSIPStyleLuhnModN.isValid("A1B2C5")
+=> true
+
+CUSIPStyleLuhnModN.isValid("A1B2C4")
+=> false
+
+// Generate check digit
+CUSIPStyleLuhnModN.checkDigit("A1B2C")
 => 5
 ```
 
