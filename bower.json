@@ -6,6 +6,6 @@
   "ignore": [
     "lib/",
     "node_modules/",
-    "spec/",
+    "spec/"
   ]
 }
