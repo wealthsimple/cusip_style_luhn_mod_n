@@ -1,4 +1,4 @@
-# CusipStyleLuhnModN
+# cusip_style_luhn_mod_n
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/cusip_style_luhn_mod_n`. To experiment with that code, run `bin/console` for an interactive prompt.
 
