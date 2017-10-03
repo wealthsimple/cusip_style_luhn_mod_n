@@ -1,4 +1,4 @@
-# cusip_style_luhn_mod_n [![CircleCI](https://circleci.com/gh/wealthsimple/cusip_style_luhn_mod_n.svg?style=svg)](https://circleci.com/gh/wealthsimple/cusip_style_luhn_mod_n)
+# cusip_style_luhn_mod_n [![CircleCI](https://circleci.com/gh/wealthsimple/cusip_style_luhn_mod_n.svg?style=svg)](https://circleci.com/gh/wealthsimple/cusip_style_luhn_mod_n) [![Gem Version](https://badge.fury.io/rb/cusip_style_luhn_mod_n.svg)](https://rubygems.org/gems/cusip_style_luhn_mod_n) [![npm version](https://badge.fury.io/js/cusip_style_luhn_mod_n.svg)](https://badge.fury.io/js/cusip_style_luhn_mod_n)
 
 CUSIP-style luhn mod N algorithm based on https://commons.apache.org/proper/commons-validator/apidocs/org/apache/commons/validator/routines/checkdigit/CUSIPCheckDigit.html and https://en.wikipedia.org/wiki/Luhn_mod_N_algorithm
 
@@ -15,7 +15,7 @@ gem 'cusip_style_luhn_mod_n'
 #### JavaScript:
 
 ```
-npm i cusip_style_luhn_mod_n --save 
+npm i cusip_style_luhn_mod_n --save
 ```
 
 ## Usage
