@@ -16,6 +16,7 @@ gem 'cusip_style_luhn_mod_n'
 # Check validity of check digit:
 CUSIPStyleLuhnModN.valid?("A1B2C5")
 => true
+
 CUSIPStyleLuhnModN.valid?("A1B2C4")
 => false
 
