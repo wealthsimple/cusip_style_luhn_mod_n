@@ -12,8 +12,6 @@ module CusipStyleLuhnModN
       total.zero? ? 0 : 10 - total
     end
 
-    private
-
     def self.character_value(c)
       value = c.ord - '0'.ord
       return value if value >= 0 && value <= 9
@@ -25,7 +23,7 @@ module CusipStyleLuhnModN
     def self.digits(n)
       digits = []
       return [0] if n.zero?
-      while n != 0 do
+      while n != 0
         n, last_digit = n.divmod(10)
         digits << last_digit
       end
