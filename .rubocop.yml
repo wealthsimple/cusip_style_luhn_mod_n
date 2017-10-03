@@ -9,6 +9,9 @@ AllCops:
     - '*.gemspec'
     - 'bin/**/*'
     - 'examples/**/*'
+    - 'javascripts/**/*'
+    - 'node_modules/**/*'
+    - 'spec/javascripts/**/*'
     - 'tmp/**/*'
     - 'vendor/**/*'
 
